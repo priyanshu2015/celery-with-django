@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 
     'mainapp', 
     'django_celery_results',
-    'django_celery_beat'
+    'django_celery_beat',
+    'send_mail_app'
 ]
 
 MIDDLEWARE = [
@@ -109,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'UTC' #Asia/Kolkata
 
 USE_I18N = True
 
